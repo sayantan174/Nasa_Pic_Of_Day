@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NASA Picture of the Day</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>NASA Picture of the Day</h1>
+    </header>
+
+    <main>
+      <form id="search-form">
+        <label for="search-input">Select a date:</label>
+        <input type="date" id="search-input" required />
+        <button type="submit">Search</button>
+      </form>
+
+      <section id="current-image-container">
+        <!-- Data will be shown here -->
+      </section>
+
+      <ul id="search-history">
+        <!-- Past searches will be displayed here -->
+      </ul>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
